@@ -25,7 +25,7 @@ public class Country {
     }
 
     public void setName(String capital) {
-        this.name = name;
+        this.name = capital;
     }
 
     public String getCapital() {
@@ -82,5 +82,9 @@ public class Country {
             new Country("Espagne", "Madrid", "flag_of_spain", "espagnol", "euro", 48958159, 505911),
             new Country("Afrique du Sud", "Pretoria", "flag_of_south_africa", "anglais, afrikaans et 9 langues bantoues", "rand", 55653654, 1219912),
             new Country("États-Unis", "Washington", "flag_of_the_united_states", "aucune", "dollar américain", 327167434, 9833517),
-            new Country("Japon", "Tokyo", "flag_of_japan", "japonais", "yen", 126168156, 377915)};
+            new Country("Japon", "Tokyo", "flag_of_japan", "japonais", "yen", 126168156, 377915),
+            new Country("Chine", "Pékin", "flag_of_china", "Mandarin standard", "yuan ou renminbi", 1394015977, 9596960),
+            new Country("Inde", "New Dehli", "flag_of_india", "Hindi, anglais, et 22 langues regionales", "roupie Indienne", 1326093247, 3287263),
+            new Country("Brésil", "Brasilia", "flag_of_brasil", "Portugais", "Réal brésilien", 211715973, 8515876),
+    };
 }

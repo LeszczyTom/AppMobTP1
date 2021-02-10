@@ -21,7 +21,11 @@ public class DetailFragment extends Fragment {
             R.drawable.ic_flag_of_spain_320px,
             R.drawable.ic_flag_of_south_africa_320px,
             R.drawable.ic_flag_of_the_united_states_320px,
-            R.drawable.ic_flag_of_japan_320px };
+            R.drawable.ic_flag_of_japan_320px,
+            R.drawable.ic_flag_of_china_320px,
+            R.drawable.ic_flag_of_india_320px,
+            R.drawable.ic_flag_of_brasil_320px
+    };
 
     TextView itemDetailCountry;
     ImageView itemDetailFlag;
